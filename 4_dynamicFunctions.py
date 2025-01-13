@@ -41,7 +41,7 @@
 
 cofee_prices = [('cappuccino',1.5),('espereso',1.2),('mocha',1.9)]
 
-def most_expensive_coffe(list_of_prices):
+def most_expensive_coffee(list_of_prices):
 
     hightest_price = 0
     my_most_expensive_coffee = ''
@@ -55,7 +55,9 @@ def most_expensive_coffe(list_of_prices):
 
     return(my_most_expensive_coffee, hightest_price)
 
-print(most_expensive_coffe(list_of_prices))
+coffee, price = most_expensive_coffee(list_of_prices)
+
+print(f'the most expensive coffee is {coffee}whos price is {price}')
 
 
 
